@@ -1,3 +1,72 @@
 body {
-    background-color: blue;
+    margin: 0;
+    text-align: center;
+    font-family: 'Euclid Circular A', Arial, Helvetica, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 200%;
+}
+
+h1 {
+    color: #599b99;
+    font-size: 5.625rem;
+    line-height: 2;
+    margin: 50px auto 0;
+    font-family: 'Licorice', serif;
+}
+
+h2 {
+    color: #599b99;
+    font-size: 2.5rem;
+    font-weight: 500;
+}
+
+h3 {
+    color: #3a6e6d;
+    font-size: 2rem;
+}
+
+a {
+    color: #3a6e6d;
+}
+
+.top-container {
+    background-color: #E4F9F5;
+    position: relative;
+    padding-top: 100px;
+}
+
+#pro {
+    text-decoration: underline;
+}
+
+.middle-container {}
+
+.profile-picture {
+    width: 300px;
+    border-radius: 50%;
+}
+
+.bottom-container {}
+
+.skill-row {
+    width: 50%;
+    margin: 100px auto;
+    text-align: left;
+    line-height: 2;
+}
+
+.skill-row img {
+    width: 25%;
+    border-radius: 50%;
+}
+
+.top-cloud {
+    position: absolute;
+    right: 300px;
+    top: 50px;
+}
+
+.bottom-cloud {
+    position: absolute;
+    left: 300px;
+    bottom: 300px;
 }
